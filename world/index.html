@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>长安漫游</title><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#203d45}canvas{width:100%;height:100%;display:block;outline:0;touch-action:none}#status{position:absolute;inset:0;display:grid;place-content:center;gap:14px;text-align:center;color:#e7d5b2;font:15px/1.8 system-ui;background:#203d45}#status b{font-size:25px;letter-spacing:7px}#status small{color:#b6c9bc}#error{color:#f3c99b;white-space:pre-wrap;max-width:450px;padding:20px}</style></head><body><canvas id="canvas" tabindex="0" aria-label="Godot 长安漫游，WASD移动，空格跳跃，E交谈"></canvas><div id="status"><b>长安 · 正在入城</b><span id="progress">首次载入需要下载游戏引擎，请稍候…</span><small>你的故事，正在街巷里展开。</small><span id="error"></span></div><script>
+const pending=[];
+window.changanBridge={send(json){try{parent.postMessage({channel:'changan-world',...JSON.parse(json)},location.origin)}catch{}},poll(){return JSON.stringify(pending.splice(0,32))}};
+addEventListener('message',e=>{if(e.origin===location.origin&&e.source===parent&&e.data?.channel==='changan-host'&&typeof e.data.type==='string'){pending.push(e.data);if(e.data.type==='navigate'||(e.data.type==='pause'&&!e.data.value))document.getElementById('canvas').focus()}});
+addEventListener('contextmenu',e=>e.preventDefault());
+</script><script src="index.js"></script><script>
+const config={"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":270784,"index.wasm":10153810},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const game=new Engine(config);
+game.startGame({canvas:document.getElementById('canvas'),onProgress(current,total){document.getElementById('progress').textContent=total?'入城准备 '+Math.min(100,Math.round(current/total*100))+'%':'正在整理城中街巷…'}}).then(()=>{document.getElementById('status').style.display='none';document.getElementById('canvas').focus()}).catch(error=>{document.getElementById('error').textContent='游戏载入失败，可切换鸟瞰模式继续。\n'+error.message;window.changanBridge.send(JSON.stringify({type:'error',message:'浏览器未能启动 Godot，请切换鸟瞰模式。'}))});
+</script></body></html>
+
