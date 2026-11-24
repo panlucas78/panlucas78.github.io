@@ -514,6 +514,30 @@
       "source": "Original SVG authored for project; exported by real Krita",
       "license": "Project-authored, no third-party raster material",
       "sha256": "6a6ce49b3ad875c588c154183df17095505224b644c72981f013e03c877f62a4"
+    },
+    {
+      "file": "godot\\assets\\courtyard.wav",
+      "source": "Original synthesis; actual Audacity import, normalize and WAV export",
+      "license": "Project-authored audio",
+      "sha256": "efe40d1ccc93caa1e75f341cd7f02be02c6c8e0b2cafd10cdd64b31116b358f4"
+    },
+    {
+      "file": "godot\\assets\\footstep.wav",
+      "source": "Original synthesis; actual Audacity import, normalize and WAV export",
+      "license": "Project-authored audio",
+      "sha256": "c4453c02e6c81df927603698c338df71532b7aa29497e74c3b4b665d5d9f22d9"
+    },
+    {
+      "file": "godot\\assets\\Chinese.otf",
+      "source": "Noto Sans CJK SC, Adobe; subset from Blender bundled font",
+      "license": "SIL OFL 1.1, see web/licenses/Noto-OFL.txt",
+      "sha256": "1465fe64bbf780bdf2a2f3ba42d73063c60b9ee095c698b8dc7dc28f776d32f4"
+    },
+    {
+      "file": "web\\assets\\palace-font.woff2",
+      "source": "Noto Sans CJK SC, Adobe; subset from Blender bundled font",
+      "license": "SIL OFL 1.1, see web/licenses/Noto-OFL.txt",
+      "sha256": "6d2c1d88fc6965884f1bae1125e2cb385264490e0c90e184f2b4db54be26146a"
     }
   ]
 }
