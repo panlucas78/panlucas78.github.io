@@ -1,0 +1,519 @@
+{
+  "units": "1 Godot/Blender unit = 1 metre",
+  "scope": "Wumen, Taihemen, Taihedian exterior route only",
+  "accuracy": "Public dimensions + OSM alignment, NOT a complete surveyed replica",
+  "assets": [
+    {
+      "file": "godot\\assets\\courtyard_props.glb",
+      "bytes": 421572,
+      "sha256": "046c29158c920b28436de4e60ae8732142c525e97932bb2f0286930ff25989e2",
+      "meshes": 2,
+      "skins": 0,
+      "animations": [],
+      "position_bounds": [
+        [
+          [
+            -1.2944430112838745,
+            -1.375,
+            -1
+          ],
+          [
+            65.3507308959961,
+            2.6742067337036133,
+            1.7999999523162842
+          ]
+        ],
+        [
+          [
+            -34.9630012512207,
+            0,
+            -144.00399780273438
+          ],
+          [
+            26.100000381469727,
+            2.4000000953674316,
+            -113.2040023803711
+          ]
+        ]
+      ],
+      "status": "runtime imported and playable",
+      "source": "Original Blender procedural model; roof loft adapted from Gubao-tian/forbidden-city-3d (MIT)",
+      "license": "Project-authored geometry; adapted roof algorithm MIT notice retained",
+      "role": "Architecture or courtyard props; simplified learning reconstruction"
+    },
+    {
+      "file": "godot\\assets\\explorer.glb",
+      "bytes": 3127856,
+      "sha256": "cbc50e2fde17b8a54627b83f76bba274ba6d68026f5062af9f6277b3305b5bcb",
+      "meshes": 4,
+      "skins": 1,
+      "animations": [
+        "Idle",
+        "Talk",
+        "Walk",
+        "Wave"
+      ],
+      "position_bounds": [
+        [
+          [
+            -0.06299881637096405,
+            1.6492886543273926,
+            0.05128489062190056
+          ],
+          [
+            0.06299881637096405,
+            1.68690025806427,
+            0.09157125651836395
+          ]
+        ],
+        [
+          [
+            -0.05105403810739517,
+            1.6395373344421387,
+            0.04291463643312454
+          ],
+          [
+            0.05105403810739517,
+            1.6725529432296753,
+            0.07533323019742966
+          ]
+        ],
+        [
+          [
+            -0.1507568359375,
+            1.530051827430725,
+            -0.13409525156021118
+          ],
+          [
+            0.1507568359375,
+            1.779151201248169,
+            0.10265965759754181
+          ]
+        ],
+        [
+          [
+            -0.8344330787658691,
+            1.393280267715454,
+            -0.116116464138031
+          ],
+          [
+            0.8344329595565796,
+            1.7666435241699219,
+            0.11192343384027481
+          ]
+        ],
+        [
+          [
+            -0.727482795715332,
+            0.91298508644104,
+            -0.16246943175792694
+          ],
+          [
+            0.7274827361106873,
+            1.4701822996139526,
+            0.14022760093212128
+          ]
+        ],
+        [
+          [
+            -0.2054179459810257,
+            0.15939195454120636,
+            -0.16246943175792694
+          ],
+          [
+            0.2054179459810257,
+            0.9478410482406616,
+            0.08558762073516846
+          ]
+        ],
+        [
+          [
+            -0.18195387721061707,
+            -0.008407306857407093,
+            -0.13140638172626495
+          ],
+          [
+            0.18195387721061707,
+            0.16373853385448456,
+            0.13025632500648499
+          ]
+        ]
+      ],
+      "status": "runtime imported and playable",
+      "source": "Quaternius Universal Base Characters Standard; pinned mirror and source hashes in research/character-source.json",
+      "license": "CC0-1.0",
+      "modifications": "Clothing material areas, hair rebinding, authored skeletal animations",
+      "role": "Player"
+    },
+    {
+      "file": "godot\\assets\\guide.glb",
+      "bytes": 2653148,
+      "sha256": "01d563f0961fbe134104f3a67f1e241c7f2cb0167ae820b046322ae720d73411",
+      "meshes": 4,
+      "skins": 1,
+      "animations": [
+        "Idle",
+        "Talk",
+        "Walk",
+        "Wave"
+      ],
+      "position_bounds": [
+        [
+          [
+            -0.062340568751096725,
+            1.6948597431182861,
+            0.056921545416116714
+          ],
+          [
+            0.062340568751096725,
+            1.725467562675476,
+            0.0944778323173523
+          ]
+        ],
+        [
+          [
+            -0.04874879866838455,
+            1.6835993528366089,
+            0.05123399570584297
+          ],
+          [
+            0.04874879866838455,
+            1.7135448455810547,
+            0.08063788712024689
+          ]
+        ],
+        [
+          [
+            -0.08542495965957642,
+            1.6605602502822876,
+            -0.10815346240997314
+          ],
+          [
+            0.089996337890625,
+            1.8397217988967896,
+            0.07879605889320374
+          ]
+        ],
+        [
+          [
+            -0.9294330477714539,
+            1.3859220743179321,
+            -0.15899130702018738
+          ],
+          [
+            0.9294331073760986,
+            1.8100768327713013,
+            0.11516908556222916
+          ]
+        ],
+        [
+          [
+            -0.8305215239524841,
+            0.9048100113868713,
+            -0.16345082223415375
+          ],
+          [
+            0.8305214047431946,
+            1.478104829788208,
+            0.12533530592918396
+          ]
+        ],
+        [
+          [
+            -0.19515052437782288,
+            0.13198967278003693,
+            -0.1605028361082077
+          ],
+          [
+            0.19515052437782288,
+            0.9529491662979126,
+            0.09261658042669296
+          ]
+        ],
+        [
+          [
+            -0.18651023507118225,
+            -0.009510005824267864,
+            -0.14159123599529266
+          ],
+          [
+            0.18651029467582703,
+            0.17665301263332367,
+            0.12803706526756287
+          ]
+        ]
+      ],
+      "status": "runtime imported and playable",
+      "source": "Quaternius Universal Base Characters Standard; pinned mirror and source hashes in research/character-source.json",
+      "license": "CC0-1.0",
+      "modifications": "Clothing material areas, hair rebinding, authored skeletal animations",
+      "role": "Guide NPC"
+    },
+    {
+      "file": "godot\\assets\\taihedian.glb",
+      "bytes": 929372,
+      "sha256": "8d0364f6f55a8503e37604f2fe727fa7fed034f281e2cd691ff77bf69e73d751",
+      "meshes": 5,
+      "skins": 0,
+      "animations": [],
+      "position_bounds": [
+        [
+          [
+            -32.72999954223633,
+            -0.6499999761581421,
+            -38.37001419067383
+          ],
+          [
+            32.72999954223633,
+            0.6499999761581421,
+            1.2000000476837158
+          ]
+        ],
+        [
+          [
+            -2.6072726249694824,
+            -3.25,
+            -0.11999999731779099
+          ],
+          [
+            60.75272750854492,
+            3.25,
+            0.11999999731779099
+          ]
+        ],
+        [
+          [
+            -33.97999954223633,
+            -9.084800720214844,
+            -39.209991455078125
+          ],
+          [
+            33.97999954223633,
+            15.135199546813965,
+            1.96002197265625
+          ]
+        ],
+        [
+          [
+            -32.380001068115234,
+            -5.330160617828369,
+            -18.9849910736084
+          ],
+          [
+            32.380001068115234,
+            11.014639854431152,
+            18.985021591186523
+          ]
+        ],
+        [
+          [
+            -45.11000061035156,
+            -1.3550000190734863,
+            -32.71499252319336
+          ],
+          [
+            45.11000061035156,
+            7.675002098083496,
+            57.59501647949219
+          ]
+        ]
+      ],
+      "status": "runtime imported and playable",
+      "source": "Original Blender procedural model; roof loft adapted from Gubao-tian/forbidden-city-3d (MIT)",
+      "license": "Project-authored geometry; adapted roof algorithm MIT notice retained",
+      "role": "Architecture or courtyard props; simplified learning reconstruction"
+    },
+    {
+      "file": "godot\\assets\\taihemen.glb",
+      "bytes": 432816,
+      "sha256": "b19d3a7bbf4325c26db4428f6a0e568a5f6c40d03789f7c2341b57b17cdffbeb",
+      "meshes": 4,
+      "skins": 0,
+      "animations": [],
+      "position_bounds": [
+        [
+          [
+            -31.75,
+            -0.6499999761581421,
+            -22.200000762939453
+          ],
+          [
+            31.75,
+            0.6499999761581421,
+            1.2000000476837158
+          ]
+        ],
+        [
+          [
+            -33,
+            -0.05999999865889549,
+            -23.039993286132812
+          ],
+          [
+            33,
+            11.595999717712402,
+            1.9600067138671875
+          ]
+        ],
+        [
+          [
+            -0.3799999952316284,
+            -4.5320000648498535,
+            -21.3700008392334
+          ],
+          [
+            62.380001068115234,
+            9.031999588012695,
+            0.3700000047683716
+          ]
+        ],
+        [
+          [
+            -36.130001068115234,
+            -1.600000023841858,
+            -30.5100040435791
+          ],
+          [
+            36.130001068115234,
+            2.5000014305114746,
+            30.5100040435791
+          ]
+        ]
+      ],
+      "status": "runtime imported and playable",
+      "source": "Original Blender procedural model; roof loft adapted from Gubao-tian/forbidden-city-3d (MIT)",
+      "license": "Project-authored geometry; adapted roof algorithm MIT notice retained",
+      "role": "Architecture or courtyard props; simplified learning reconstruction"
+    },
+    {
+      "file": "godot\\assets\\wumen.glb",
+      "bytes": 1030916,
+      "sha256": "d47e9800f13611d8a8185db4c14ff46585d8a8e8d6e1e515744ce49a5392de70",
+      "meshes": 6,
+      "skins": 0,
+      "animations": [],
+      "position_bounds": [
+        [
+          [
+            -88.75,
+            -3.553999423980713,
+            -26.200000762939453
+          ],
+          [
+            88.75,
+            0.6499999761581421,
+            79.69999694824219
+          ]
+        ],
+        [
+          [
+            -39.75,
+            -6,
+            -16
+          ],
+          [
+            150.25,
+            6,
+            85
+          ]
+        ],
+        [
+          [
+            -61.011112213134766,
+            -3.25,
+            -0.11999999731779099
+          ],
+          [
+            114.38888549804688,
+            3.25,
+            78.62000274658203
+          ]
+        ],
+        [
+          [
+            -94.5,
+            -7.62399959564209,
+            -27.040000915527344
+          ],
+          [
+            94.5,
+            13.276000022888184,
+            80.45999908447266
+          ]
+        ],
+        [
+          [
+            -91.30000305175781,
+            -4.672800540924072,
+            -12.899999618530273
+          ],
+          [
+            91.30000305175781,
+            10.211198806762695,
+            91.4000015258789
+          ]
+        ],
+        [
+          [
+            -17.160903930664062,
+            -76.8359146118164,
+            -29.149999618530273
+          ],
+          [
+            6.515726566314697,
+            98.86173248291016,
+            75.48999786376953
+          ]
+        ]
+      ],
+      "status": "runtime imported and playable",
+      "source": "Original Blender procedural model; roof loft adapted from Gubao-tian/forbidden-city-3d (MIT)",
+      "license": "Project-authored geometry; adapted roof algorithm MIT notice retained",
+      "role": "Architecture or courtyard props; simplified learning reconstruction"
+    },
+    {
+      "file": "godot\\assets\\paving.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha": "fully opaque, checked",
+      "source": "Original SVG authored for project; exported by real Krita",
+      "license": "Project-authored, no third-party raster material",
+      "sha256": "0d6831195ef6c1cc1e8f11dfe90ca69df7d24cb6dec5871b1cd369c7b8f1407d"
+    },
+    {
+      "file": "godot\\assets\\wall.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha": "fully opaque, checked",
+      "source": "Original SVG authored for project; exported by real Krita",
+      "license": "Project-authored, no third-party raster material",
+      "sha256": "ccd0b8f0bfd8d843a21f309ebfa7dac0e706b487c2564d151ff707e2878f937e"
+    },
+    {
+      "file": "godot\\assets\\roof.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha": "fully opaque, checked",
+      "source": "Original SVG authored for project; exported by real Krita",
+      "license": "Project-authored, no third-party raster material",
+      "sha256": "f4b6ee6a860863348abb75615fb38bed01be6e80c02a48830c675079f0894386"
+    },
+    {
+      "file": "godot\\assets\\beam.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha": "fully opaque, checked",
+      "source": "Original SVG authored for project; exported by real Krita",
+      "license": "Project-authored, no third-party raster material",
+      "sha256": "6a6ce49b3ad875c588c154183df17095505224b644c72981f013e03c877f62a4"
+    }
+  ]
+}
