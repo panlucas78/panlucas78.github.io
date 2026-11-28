@@ -386,6 +386,32 @@
       "role": "Architecture or courtyard props; simplified learning reconstruction"
     },
     {
+      "file": "godot\\assets\\wumen-arch-facing.glb",
+      "bytes": 189332,
+      "sha256": "d2de4f9b296bbd0402d22e09887047dfc6343afeed3f08f3a59ce65a5869f394",
+      "meshes": 1,
+      "skins": 0,
+      "animations": [],
+      "position_bounds": [
+        [
+          [
+            -3.8028175830841064,
+            0,
+            -0.27500003576278687
+          ],
+          [
+            3.8028175830841064,
+            9.399999618530273,
+            0.27500012516975403
+          ]
+        ]
+      ],
+      "status": "runtime imported and playable",
+      "source": "Original Blender procedural model; roof loft adapted from Gubao-tian/forbidden-city-3d (MIT)",
+      "license": "Project-authored geometry; adapted roof algorithm MIT notice retained",
+      "role": "Architecture or courtyard props; simplified learning reconstruction"
+    },
+    {
       "file": "godot\\assets\\wumen.glb",
       "bytes": 1030916,
       "sha256": "d47e9800f13611d8a8185db4c14ff46585d8a8e8d6e1e515744ce49a5392de70",
@@ -531,13 +557,13 @@
       "file": "godot\\assets\\Chinese.otf",
       "source": "Noto Sans CJK SC, Adobe; subset from Blender bundled font",
       "license": "SIL OFL 1.1, see web/licenses/Noto-OFL.txt",
-      "sha256": "1465fe64bbf780bdf2a2f3ba42d73063c60b9ee095c698b8dc7dc28f776d32f4"
+      "sha256": "3a562579572ca97e9f6b09f86132e5110ad3e6d4397c241c529df945aded6f88"
     },
     {
       "file": "web\\assets\\palace-font.woff2",
       "source": "Noto Sans CJK SC, Adobe; subset from Blender bundled font",
       "license": "SIL OFL 1.1, see web/licenses/Noto-OFL.txt",
-      "sha256": "6d2c1d88fc6965884f1bae1125e2cb385264490e0c90e184f2b4db54be26146a"
+      "sha256": "efc750ec2460aebcc9a1e0630bc0c22687feae2918cd5c1a6f3da00027ac0832"
     }
   ]
 }
